@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Головна</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Головна</a></li>
+				<li class="active"><a href="academicUgolev.html">Академік Уголєв</a></li>
+				<li><a href="">Основи харчування</a>
+					<ul class="sub-menu">
+						<li><a href="chewingFood.html">Пережовування їжі</a></li>
+						<li><a href="waterBalance.html">Водний баланс</a></li>
+						<li><a href="thermalProcessing.html">Термічна обробка</a></li>
+					</ul>
+				</li>
+				<li><a href="">Процес травлення</a>
+					<ul class="sub-menu">
+						<li><a href="cellLevel.html">Живлення на клітинному рівні</a></li>
+						<li><a href="digestion.html">Процес травлення</a></li>
+						<li><a href="microflora.html">Мікрофлора</a></li>
+						<li><a href="foodEnergy.html">Енергетична цінність продуктів</a></li>
+					</ul>
+				</li>
+				<li><a href="">"Неприродні продукти"</a>
+					<ul class="sub-menu">
+						<li><a href="meat.html">М'ясо</a></li>
+						<li><a href="salt.html">Сіль</a></li>
+						<li><a href="sugar.html">Цукор</a></li>
+						<li><a href="refineProducts.html">Рафіновані продукти</a></li>
+					</ul>
+				</li>
+			</ul>
+	</nav>
+		<div id="main">
+			<button class="left" onclick="slider.left();"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+				<div id="scr"></div>
+				<div class="aphorism aphorism-1">
+					<div class="title">Ми - це те, що ми їмо!</div>
+					<div class="description">Гіппократ</div>
+				</div>
+				<div class="aphorism aphorism-2">
+					<div class="title">Ми живемо не для того, щоб їсти, а їмо для того, щоб жити</div>
+					<div class="description">Сократ</div>
+				</div>
+				<div class="aphorism aphorism-3">
+					<div class="title">З того моменту як стародавні люди вперше скуштували смажену їжу, людина стала їсти більше, ніж потрібно для організму.</div>
+					<div class="description">Бенджамін Франклін</div>
+				</div>
+				<div class="aphorism aphorism-4">
+					<div class="title">Краще час від часу недоїдати, ніж постійно об'їдатися.</div>
+					<div class="description">Абу-ль-Фарадж</div>
+				</div>
+				<div class="aphorism aphorism-5">
+					<div class="title">Вставши із-за столу голодним – ви наїлись; якщо ви встали наївшись – ви переїли; якщо встаєте переївши – ви отруїлись.</div>
+					<div class="description">Антон Павлович Чехов</div>
+				</div>
+				<div class="aphorism aphorism-6">
+					<div class="title">Їсти і пити потрібно стільки, щоб наші сили цим відновлювались, а не пригнічувались.</div>
+					<div class="description">Ціцерон</div>
+				</div>
+			<button class="right" onclick="slider.right();"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+			<div class="wrapper-for-radio">
+				<input type="radio" name="radio1" onclick="slider.choice(0)" checked>
+				<input type="radio" name="radio1" onclick="slider.choice(1)">
+				<input type="radio" name="radio1" onclick="slider.choice(2)">
+				<input type="radio" name="radio1" onclick="slider.choice(3)">
+				<input type="radio" name="radio1" onclick="slider.choice(4)">
+				<input type="radio" name="radio1" onclick="slider.choice(5)">
+			</div>
+		</div>
+	</header>
+	
+	<div class="container">
+		<div class="cols col-4">
+			<div class="rows last-articles">
+				<div class="title">Останні статті</div>
+				<div class="article art-1">
+					<a href="cellLevel.html"><img src="images/cl1.jpg" alt=""></a>
+					<div class="description">Живлення на клатинному рівні</div>
+					<div class="time">18 hours ago</div>
+				</div>
+				<div class="article art-2">
+					<a href="chewingFood.html"><img src="images/ch1.jpg" alt=""></a>
+					<div class="description">Пережовування їжі</div>
+					<div class="time">3 days ago</div>
+				</div>
+				<div class="article art-3">
+					<a href="microflora.html"><img src="images/mf1.jpg" alt=""></a>
+					<div class="description">Мікрофлора</div>
+					<div class="time">5 days ago</div>
+				</div>
+				<div class="article art-4">			
+					<a href="sugar.html"><img src="images/sg1.jpg" alt=""></a>
+					<div class="description">Дія цукру на організм людини</div>
+					<div class="time">7 days ago</div>
+				</div>
+				<div class="article art-5">
+					<a href="waterBalance.html"><img src="images/wb1.jpg" alt=""></a>
+					<div class="description">Водний баланс</div>
+					<div class="time">10 days ago</div>
+				</div>
+			</div>
+				<div class="rows random-article">
+					<div class="description">
+						<section>
+							<h3>Теорія адекватного харчування і трафологія</h3>
+							<p>Книга, яка допоможе вам зрозуміти, як відбувається процес травлення в вашому організмі.<br><a href="TheTheoryOfAdequateNutrition.fb2">Завантажити</a></p>
+						</section>
+					</div>
+			</div>
+		</div>
+		<div class="cols col-8">
+			<div class="rows paragraph-horizontal">
+				<a href="meat.html"><img src="images/mt1.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>М'ясо</h3>
+					 	<p>М'ясо — м'язові тканини різноманітних тварин, що вживаються у їжу. Важливий продукт харчування, головне джерело тваринного білка та одне з головних джерел білка.
+						</p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">1 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">30 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="salt.html"><img src="images/st1.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>Дія солі на організм людини</h3>
+						<p>Погодьтеся, зустріти собаку або кішку, які відмовилися б від їжі через те, що вона “несолона”, — просто неможливо. З маленькими дітьми — та ж історія, вони не знають, що їжа може бути “солоною і не солоною”.</p> 
+						<p>А от дорослі, тисячоліттями вживаючи цей консервант, привчилися розрізняти відтінки смаку. Так-так, сіль люди почали використовувати саме тому, що вона — прекрасний консервант: заготовлювати рибу, м’ясо, овочі на довготривале зберігання без солі — вельми сумнівне задоволення. То ж для чого потрібна сіль?</p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">0 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">16 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="sugar.html"><img src="images/sg1.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>Дія цукру на організм людини</h3>
+						<p>У це віриться насилу, але ефект цукру на мозок дуже схожий на ефект від кокаїну. Як і у випадку з кокаїном, цукор сприяє виділенню великої кількості допаміну і серотоніну — «гормонів щастя». Таким чином, у тебе виникає залежність і бажання з’їсти ще більше солодощів.</p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">3 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">43 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="refineProducts.html"><img src="images/rp1.jpg" alt=""></a>
+				<article>
+					<section>
+			 			<h3>Рафіновані продукти</h3>
+				 		<p>Рафінування - процес, завдяки якому продукт отримує остаточну очищення, після чого набуває властивості, зручні при подальшій кулінарній обробці.</p>
+						<p>При рафінуванні «баластні речовини» пускають у відходи разом зі значною кількістю поживних речовин (вітаміни, мікроелементи, амінокислоти, антиоксиданти тощо). Розглянемо найпоширеніші рафіновані продукти харчування для людини. </p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">5 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">65 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="cellLevel.html"><img src="images/cl1.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>Живлення на клітинному рівні</h3>
+						<p>Клітини - це фундаментальні одиниці життя, з яких складаються всі тканини і органи. Ці найдрібніші компоненти постійно взаємодіють один з одним, реагуючи на всілякі сигнали.</p> 
+						<p>Харчування клітин організму є життєво важливим, так як якщо їхнє функціонування не буде здійснюватися ефективно, це може привести до зниження загальних фізичних показників, появи хвороб.</p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">3 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">51 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="digestion.html"><img src="images/ds8.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>Процес травлення</h3>			 	
+						<p>Організм людини внаслідок енергетичних витрат потребує поповнення харчовими речовинами. Більшість харчових речовин, які надходять в організм, не можуть використовуватися ним безпосередньо.</p>
+						<p>Надходження та розпад харчових речовин повинні бути збалансованими, щоб не порушувався обмін речовин. Білки, жири, вуглеводи, мінеральні речовини та вітаміни, які надійшли з їжею, змінюються, перетворившись на субстракти тканин організму, а продукти обміну, які утворилися внаслідок окислення цих речовин, із організму виводяться.</p> 
+						<p>Початкові стадії хімічних змін із харчовими продуктами відбуваються у системі травлення. Основа травлення — це розщеплення великих і складних молекул (білків, вуглеводів та жирів) до їх складних компонентів.</p>
+						<p>Їжа, переміщуючись органами травлення, піддається дії соків, які сприяють її перетравленню. До складу цих соків входять різні хімічні речовини.</p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">2 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">27 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="microflora.html"><img src="images/mf1.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>Мікрофлора</h3>
+						<p>Дослідження, проведені за останні роки, відкрили нові факти, що свідчать про зв'язок між мікрофлорою нашого організму і здоров'ям людини. Проте до цих пір далеко не всі знають про те, наскільки життєдіяльність людини пов'язана з мікроорганізмами, які населяють наше тіло.</p>
+						<p>Насправді кількість різних мікроорганізмів, що складають нашу мікрофлору, настільки велика, що перевищує число наших власних клітин. І всі ці живі істоти уживаються між собою і зі своїм "господарем", разом забезпечуючи існування невеликого Всесвіту на ім'я "людина".</p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">2 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">31 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="foodEnergy.html"><img src="images/fe1.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>Енергетична цінність продуктів</h3>			 	
+						<p>Енергетична цінність продуктів, або калорійність – це кількість енергії, що вивільняється в організмі людини з продуктів харчування в процесі травлення, за умови її повного засвоєння.</p> 
+						<p>Енергетична цінність продукту вимірюється в кілокалоріях (ккал) або кілоджоулях (кДж) в розрахунку на 100 г продукту.</p> 
+						<p>Кілокалорія, що використовується для вимірювання енергетичної цінності продуктів харчування, також носить назву «харчова калорія», тому, при вказівці калорійності в кілокалоріях приставку «кіло» часто не вживають.</p>
+						<p>Енергетичну цінність продуктів ще називають калорійністю, оскільки більш поширеною одиницею її вимірювання є калорія.</p> 
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">8 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">73 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="chewingFood.html"><img src="images/ch1.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>Пережовування їжі</h3>
+						<p>Ретельне пережовування їжі сприяє більш швидкому переварюванню і засвоєнню їжі. Адже травлення починається не в шлунку, а в ротової порожнини. Чим краще ви пережовуєте їжу, тим вона більше взаємодіє зі слиною.</p>
+						<p>У слині міститься білок - амілаза, який сприяє розщеплюванню складних вуглеводів в прості вже в роті. Крім того, слина багата різними ферментами, гормонами, вітамінами та біологічно активними речовинами, які сприяють кращому пережовування їжі і швидкому просуванню її по травному тракту.</p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">4 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">47 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="waterBalance.html"><img src="images/wb1.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>Водний баланс</h3>				 	
+						<p>Близько 60-65% нашої ваги — вода, а 70% наших м'язів повністю складаються із води. Кожна клітинка нашого тіла напряму залежить від води і просто не може без неї існувати. І це стосується не лише людини, а й усіх живих організмів. Вода є найважливішою речовиною для підтримання хорошого самопочуття та здорової фізичної сили.</p>
+						<p>Сумарні втрати води організмом людини за одну добу становлять від 2,5-2,6 літрів. Якщо розбити на частини, то виглядає таким чином: добові втрати води із сечею становлять 1,5 л; шкіра є джерелом виведення 500 мл води; через легені виходить 400 мл; із калом — 100 мл.</p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">3 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">45 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="thermalProcessing.html"><img src="images/tp1.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>	Термічна обробка їжі</h3>				 
+						<p>Вміст поживних речовин залежить від способу приготування їжі. Багато хто знає, що термічна обробка може позбавити продукти частини вітамінів. Але цей процес робить білки більш засвоюваними. Давайте розберемося, як обробка продуктів впливає на їх склад.</p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">2 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">18 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="rows paragraph-horizontal">
+				<a href="academicUgolev.html"><img src="images/academic-ugolev.jpg" alt=""></a>
+				<article>
+					<section>
+				 		<h3>Академік Уголєв</h3>		 
+						<p>У 1958 році академік Уголєв відкрив невідоме раніше мембранне травлення - універсальний механізм розщеплення харчових речовин до елементів, придатних до всмоктування. Після праць І.П.Павлова (Нобелівська премія 1904) та робіт І.І.Мечникова (Нобелівська премія 1908) відкриття О.М.Уголева вважається найбільш великим внеском у вивчення проблем травлення.</p>    
+            <p>Олександр Михайлович вперше розробив теорію видового, або адекватного харчування, а також фундаментально вивчив фізіологію травлення, яка за його участі перетворилася в нову науку гастроентерологію.</p>          
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">1 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">6 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+		</div>
+	</div>
+			<!--<div class="rows paragraph-vertical">
+				<img src="articles/art4.jpg" alt="">
+				<article>
+					<section>
+						<h3>Lorem ipsum dolor sit amet, consectetur</h3>
+						<p>
+						 adipisicing elit. Animi facere in sequi minima placeat ullam qui at 	reprehenderit quis, culpa repudiandae necessitatibus, nulla ab nam
+						</p>
+						<p>
+							veritatis. At optio impedit laborum dicta nostrum aspernatur nihil temporibus non! Iure doloremque magni illum voluptas, id. Amet, sint! Veniam itaque eaque maxime explicabo quam?
+						</p>
+					</section>
+				</article>
+				<div class="article-footer">
+					<div class="comments"><span class="green">60 </span>Коментарів</div>
+					<div class="likes"><span class="green">420 </span>Лайків</div>
+				</div>
+			</div>-->	
+	<footer>
+			<div class="container">
+				<div class="created">Copyright &copy; 2017 | Created by Kulinich Yura</div>
+				<div class="connect">
+					Connect with me:
+				<a href="https://vk.com/kulinichyura"><i class="fa fa-vk" aria-hidden="true"></i></a>
+				<a href="https://www.pinterest.com/yurakulinichua/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+				<a href="https://plus.google.com/u/0/105493223056378943020"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+				<a href="https://github.com/Vendettall"><i class="fa fa-git" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/yura.kulynych"><i class="fa fa-facebook" aria-hidden="true"></i></a>		
+				</div>
+			</div>
+	</footer>
+	
+	<div id="scrollUp"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+	
+<script src="main.js"></script>
+</body>
+</html>

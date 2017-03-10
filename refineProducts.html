@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Рафіновані продукти</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Головна</a></li>
+				<li><a href="academicUgolev.html">Академік Уголєв</a></li>
+				<li><a href="">Основи харчування</a>
+					<ul class="sub-menu">
+						<li><a href="chewingFood.html">Пережовування їжі</a></li>
+						<li><a href="waterBalance.html">Водний баланс</a></li>
+						<li><a href="thermalProcessing.html">Термічна обробка</a></li>
+					</ul>
+				</li>
+				<li><a href="">Процес травлення</a>
+					<ul class="sub-menu">
+						<li><a href="cellLevel.html">Живлення на клітинному рівні</a></li>
+						<li><a href="digestion.html">Процес травлення</a></li>
+						<li><a href="microflora.html">Мікрофлора</a></li>
+						<li><a href="foodEnergy.html">Енергетична цінність продуктів</a></li>
+					</ul>
+				</li>
+				<li class="active"><a href="">"Неприродні продукти"</a>
+					<ul class="sub-menu">
+						<li><a href="meat.html">М'ясо</a></li>
+						<li><a href="salt.html">Сіль</a></li>
+						<li><a href="sugar.html">Цукор</a></li>
+						<li><a href="refineProducts.html">Рафіновані продукти</a></li>
+					</ul>
+				</li>
+			</ul>
+	</nav>
+		<div id="main">
+			<button class="left" onclick="slider.left();"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+				<div id="scr"></div>
+				<div class="aphorism aphorism-1">
+					<div class="title">Ми - це те, що ми їмо!</div>
+					<div class="description">Гіппократ</div>
+				</div>
+				<div class="aphorism aphorism-2">
+					<div class="title">Ми живемо не для того, щоб їсти, а їмо для того, щоб жити</div>
+					<div class="description">Сократ</div>
+				</div>
+				<div class="aphorism aphorism-3">
+					<div class="title">З того моменту як стародавні люди вперше скуштували смажену їжу, людина стала їсти більше, ніж потрібно для організму.</div>
+					<div class="description">Бенджамін Франклін</div>
+				</div>
+				<div class="aphorism aphorism-4">
+					<div class="title">Краще час від часу недоїдати, ніж постійно об'їдатися.</div>
+					<div class="description">Абу-ль-Фарадж</div>
+				</div>
+				<div class="aphorism aphorism-5">
+					<div class="title">Вставши із-за столу голодним – ви наїлись; якщо ви встали наївшись – ви переїли; якщо встаєте переївши – ви отруїлись.</div>
+					<div class="description">Антон Павлович Чехов</div>
+				</div>
+				<div class="aphorism aphorism-6">
+					<div class="title">Їсти і пити потрібно стільки, щоб наші сили цим відновлювались, а не пригнічувались.</div>
+					<div class="description">Ціцерон</div>
+				</div>
+			<button class="right" onclick="slider.right();"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+			<div class="wrapper-for-radio">
+				<input type="radio" name="radio1" onclick="slider.choice(0)" checked>
+				<input type="radio" name="radio1" onclick="slider.choice(1)">
+				<input type="radio" name="radio1" onclick="slider.choice(2)">
+				<input type="radio" name="radio1" onclick="slider.choice(3)">
+				<input type="radio" name="radio1" onclick="slider.choice(4)">
+				<input type="radio" name="radio1" onclick="slider.choice(5)">
+			</div>
+		</div>
+	</header>
+	
+	<div class="container">
+		<div class="cols col-12">
+			<div class="rows">
+				<article>
+					<div class="title">Рафіновані продукти</div>
+					<figure><img src="images/rp1.jpg" alt=""></figure>
+					<section>
+						<p>Рафінування - процес, завдяки якому продукт отримує остаточну очищення, після чого набуває властивості, зручні при подальшій кулінарній обробці.</p>
+						<p>При рафінуванні «баластні речовини» пускають у відходи разом зі значною кількістю поживних речовин (вітаміни, мікроелементи, амінокислоти, антиоксиданти тощо). Розглянемо найпоширеніші рафіновані продукти харчування для людини. </p>
+					</section>
+					<section>
+						<h3>Рис</h3>
+						<p>У процесі шліфування рису повністю видаляється рисовий зародок і зернова оболонка, внаслідок чого крупа втрачає важливу біологічну складову - вітамін С.</p> 
+						<p>На виході ми маємо рафінований крохмаль - по суті, легкозасвоюваний вуглевод. І коли в раціоні його «пере», порушується нормальне функціонування нервової, серцево-судинної і травної систем, що розвиваються болі в м'язах, що часом призводить до порушень руху.</p> 
+						<p>При подальшому розвитку хвороби може виникати параліч рук, ніг і навіть лицьового нерва, порушуватися ритм роботи серця, знижуватися кров'яний тиск, наростати розлад кровообігу. Але, нагадаю, прояв таких симптомів можливо тільки при частому споживанні білого рису. </p>
+					</section>
+					<section>
+						<h3>Манна крупа</h3>
+						<p>Манна каша - класичний рафінований продукт. Її роблять з центральної частини зерна, що складається практично повністю з крохмалю (у складі готового продукту його 70%), а самі корисні структури зерна (зародок, плодові і насіннєві оболонки) повністю видалені.</p> 
+						<p>Шкода манної крупи в тому, що вона містить фітин, що перешкоджає всмоктуванню необхідних для росту і розвитку і живлення організму вітаміну D і кальцію. Постійна присутність в раціоні манної каші призводить до порушення роботи шлунково-кишкового тракту, послаблює імунітет.</p> 
+						<p>Однак іноді манна каша необхідна як дієтичний продукт, особливо актуальний для хворих, які страждають виснаженням організму або мають хронічну недостатність нирок. </p>
+					</section>
+					<section>
+						<h3>Борошно</h3>
+						<p>Біла борошно вищого сорту - перша в рейтингу найбільш шкідливих рафінованих продуктів - вуглеводна «пустушка». Вищий сорт означає вищий сорт очищення. Зародок пшениці є концентратом вітаміну Е - потужного антиоксиданту. Але для виробництва він ворог, тому що швидко псується.</p> 
+						<p>У 1822 році був винайдений млин, принципом роботи якого користуються по нинішній день, завдяки чому домоглися виробництва борошна вищого сорту презентабельного білого кольору.</p> 
+						<p>Технологія борошномельного виробництва спрямована на виділення з цілісного зерна виключно чистого крохмалю, але, як виявилося, некорисного для здоров'я. </p>
+					</section>
+					<section>
+						<h3>Цукор</h3>
+						<p>Рафінований цукор для людини не містить ніяких допоміжних речовин і є носіями «порожніх» калорій.</p> 
+						<p>Науково доведено, що у людей, що зловживають цукром, в організмі визначається серйозний дефіцит найважливіших поживних речовин, особливо вітамінів А, С, В12 фолієвої кислоти, кальцію, фосфору, магнію, заліза. Як наслідок - порушується обмін речовин. </p>
+					</section>
+					<section>
+						<h3>Рослинна олія</h3>
+						<p>Рафінування для організму людини подарувало нам універсальний продукт без запаху і осаду. Саме з таким оліям можна приготувати найрізноманітніші страви від салату до млинців і смаженої картопельки.</p> 
+						<p>Однак рослинне олія після рафінування - не більш ніж рідина для приготування їжі, так як не несе в собі практично ніякої користі. </p>
+					</section>
+					
+				</article>
+				<div class="article-footer">
+					<div class="left-comment"><span class="green">Залишити коментар</span></div>
+					<div class="comments"><span class="green">5 </span><i class="fa fa-comments" aria-hidden="true"></i></div>
+					<div class="likes"><span class="green">65 </span><i class="fa fa-heart" aria-hidden="true"></i></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+			<div class="container">
+				<div class="created">Copyright &copy; 2017 | Created by Kulinich Yura</div>
+				<div class="connect">
+					Connect with me:
+				<a href="https://vk.com/kulinichyura"><i class="fa fa-vk" aria-hidden="true"></i></a>
+				<a href="https://www.pinterest.com/yurakulinichua/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+				<a href="https://plus.google.com/u/0/105493223056378943020"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+				<a href="https://github.com/Vendettall"><i class="fa fa-git" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/yura.kulynych"><i class="fa fa-facebook" aria-hidden="true"></i></a>		
+				</div>
+			</div>
+	</footer>
+	
+	<div id="scrollUp"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+	
+<script src="main.js"></script>
+</body>
+</html>
