@@ -376,9 +376,17 @@ input[type="radio"]:hover::after {
 
 .last-articles .description {
 	height: 3.5em;
-	color: rgba(0,0,0,.6);
 	font-weight: 600;
 	font-family: pt sans caption;
+}
+
+.last-articles .description a {
+	color: rgba(0,0,0,.6);
+	text-decoration: none;
+}
+
+.last-articles .description a:hover {
+	text-decoration: underline;
 }
 
 .last-articles .time {
