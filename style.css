@@ -28,7 +28,7 @@ h4, h5, h6 {
 }
 
 p {
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 }
 
 header {
@@ -588,11 +588,12 @@ footer .connect {
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 .ugolev-description {
-	margin: 0 auto 2%;
+	float:left;
+	margin-right: 2%;
 	max-width: 250px;
 	font-size: 0.75em;
 	padding: 0.857em;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .ugolev-description img {
@@ -643,6 +644,10 @@ section table tr:first-child{
 section ul {
 	margin-left: 2.5%;
 	margin-bottom: 2%;
+}
+
+section ul li {
+	margin-bottom: 1.5%;
 }
 
 article figure {
