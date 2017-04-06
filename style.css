@@ -9,8 +9,6 @@
 * {
 	padding: 0;
 	margin: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -89,6 +87,7 @@ nav .sub-menu {
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
 	border-bottom-left-radius: 2px;
 	border-bottom-right-radius: 2px;
+	-webkit-transition: max-height .5s ease-out;
 	transition: max-height .5s ease-out;
 	z-index: 2;
 }
@@ -109,6 +108,7 @@ nav .sub-menu a {
 	text-shadow: none;
 	font-weight: normal;
 	border-bottom: none;
+	-webkit-transition: all .5s ease-out;
 	transition: all .5s ease-out;
 }
 
@@ -170,6 +170,7 @@ nav ul > li:hover .sub-menu {
 	text-align: center;
 	background-color: rgba(255,255,255,1);
 	border: 2px solid white;
+	-webkit-transition: all .5s ease-out;
 	transition: all .5s ease-out;
 	opacity: 0;
 }
@@ -200,6 +201,7 @@ input[type="radio"] {
 	width: 1em;
 	height: 1em;
 	opacity: 0;
+	-webkit-transition: all .5s ease-out;
 	transition: all .5s ease-out;
 }
 
@@ -245,8 +247,14 @@ input[type="radio"]:hover::after {
 }
 
 #main {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
@@ -414,6 +422,7 @@ input[type="radio"]:hover::after {
 	text-shadow: 1px 1px 3px rgba(0,0,0,.4);
 	background-color: rgba(0,0,0,.6);
 	overflow: hidden;
+	-webkit-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
 
@@ -494,8 +503,14 @@ footer {
 
 footer .container {
 	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
